@@ -119,3 +119,14 @@ header {
     }
   }
 }
+
+footer {
+  background-color: $bg-default;
+  color: $color-primary;
+  font-family: $font-default;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+}

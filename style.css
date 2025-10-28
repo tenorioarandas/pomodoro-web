@@ -102,4 +102,15 @@ header {
   font-size: 1.6rem;
   position: absolute;
   margin: 20rem 0 0 1rem;
+}
+
+footer {
+  background-color: #b72222;
+  color: #d7cbcb;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
 }/*# sourceMappingURL=style.css.map */
