@@ -69,4 +69,37 @@ header {
 .box-text p {
   font-size: 2rem;
   padding: 1rem;
+}
+
+.cards {
+  background-color: #272020;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  height: 120vh;
+}
+.cards .card {
+  background-color: #b72222;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  border-radius: 1rem;
+  width: 20vw;
+  height: 50vh;
+}
+.cards .card img {
+  display: block;
+  height: 50vh;
+}
+.cards .card figcaption {
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.6rem;
+  position: absolute;
+  margin: 20rem 0 0 1rem;
 }/*# sourceMappingURL=style.css.map */
