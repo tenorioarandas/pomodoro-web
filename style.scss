@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Chau+Philomene+One:ital@0;1&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+$bg-default: #b72222;
+$color-primary: #d7cbcb;
+$color-secondary: #fd1e1e;
+$font-title: "Chau Philomene One", sans-serif;
+$font-default: "Ubuntu", sans-serif;
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4)),
+    url("./images/banner-pomodoro.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: $font-default;
+  height: 100vh;
+  padding: 1.5rem 2rem;
+}
+
+.box-nav {
+  display: flex;
+  justify-content: space-between;
+
+  .box-icon {
+    color: $color-primary;
+    font-size: 2rem;
+  }
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  width: 25vw;
+
+  .btn {
+    border: solid 2px $bg-default;
+    color: $color-primary;
+    font-size: 1.2rem;
+    text-decoration: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 1.5rem;
+    transition: background-color 0.3s ease;
+  }
+}
+
+.btn:hover {
+  background-color: $bg-default;
+}
+
+.box-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  height: 80vh;
+
+  h1 {
+    color: $color-primary;
+    font-family: $font-title;
+    font-size: 7rem;
+  }
+
+  p {
+    color: $color-secondary;
+    font-family: $font-default;
+    font-size: 2.5rem;
+  }
+}
+
+.box-text {
+  background-color: $color-primary;
+  font-family: $font-default;
+  height: 20vh;
+  p {
+    font-size: 2rem;
+    padding: 1rem;
+  }
+}
